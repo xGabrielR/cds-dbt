@@ -1,6 +1,8 @@
 CACHEDIR.TAG
 bin
 
+ciclo_02/logs
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
