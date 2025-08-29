@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: DimProduct
+    description: "Dimensão SCD de Produtos"
+    columns:
+      - name: product_id
+        description: "Id do Produto"
+
+  - name: DimUser
+    description: "Dimensão SCD de Usuários"
+
+  - name: DimReviewText
+    description: "Dimensão 1-1 descritivos da FactReview"
+
+  - name: FactReview
+    description: "Fato de Data com Tempo da criação de uma Review"
+
+  - name: ReportSummary
+    description: "Report de Reviews"

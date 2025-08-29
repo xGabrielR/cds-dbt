@@ -1,0 +1,22 @@
+version: 2
+
+exposures:
+
+  - name: reviews_reporting
+    label: Report de Reviews
+    type: dashboard
+    maturity: high
+    url: https://bi.tool/dashboards/1
+    description: >
+      Olá Mundo!
+
+    depends_on:
+      - ref('FactReview')
+      - ref('DimProduct')
+      - ref('DimUser')
+      - ref('DimReviewText')
+      - source('StgReviews', 'reviews')
+
+    owner:
+      name: Gabriel Richter
+      email: gabriel@gmail.com

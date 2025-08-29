@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: StgReviews
+    schema: ciclo_03_StgReviews  
+    tables:
+      - name: reviews
+
+  - name: DMReviews
+    schema: ciclo_03_DMReviews
+    tables:
+      - name: DimProduct
+      - name: DimUser
+      - name: DimReviewText
+      - name: FactReview
+      
