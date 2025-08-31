@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: StgLaudo
+    schema: ciclo_03_StgReviews  
+    tables:
+      - name: laudos
+
+  - name: DMLaudo
+    schema: ciclo_03_DMLaudo
+    tables:
+      - name: DimMedico
+      - name: DimPaciente
+      - name: DimExame
+      - name: FactLaudo
+      

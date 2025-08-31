@@ -40,4 +40,8 @@ models:
       +database: dw_wd9c
       +materialized: view
       +schema: DMReviews
+    exercicios:
+      +database: dw_wd9c
+      +materialized: view
+      +schema: DMLaudo
 

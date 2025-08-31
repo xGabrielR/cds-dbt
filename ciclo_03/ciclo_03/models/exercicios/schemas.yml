@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: DimMedico
+    description: "Dimensão SCD de Medicos"
+
+  - name: DimExame
+    description: "Dimensão SCD de Exames"
+
+  - name: DimPaciente
+    description: "Dimensão SCD de Pacientes"
+
+  - name: FactLaudo
+    description: "Fato de registro de Laudos"
