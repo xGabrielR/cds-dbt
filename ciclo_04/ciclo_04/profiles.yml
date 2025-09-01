@@ -1,0 +1,12 @@
+ciclo_04:
+  outputs:
+    dev:
+      dbname: dw_wd9c
+      host: dpg-d2kafj24d50c73fl7b2g-a.oregon-postgres.render.com
+      pass: "{{ env_var('POSTGRE_PASSWORD') }}"
+      port: 5432
+      schema: ciclo_04
+      threads: 1
+      type: postgres
+      user: admin
+  target: dev
