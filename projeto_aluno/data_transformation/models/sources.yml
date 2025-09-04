@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: StgO
+    schema: StgO  
+    tables:
+      - name: autor
+      - name: conquista
+      - name: edicao
+      - name: livro
+      - name: venda
+
+  - name: DMO
+    schema: DMO
+    tables:
+      - name: DimAutor
+      - name: DimConquista
+      - name: DimFormato
+      - name: DimLivro
+      - name: DimPublicadora
+      - name: FactEdicao
+      - name: FactVenda
+      
